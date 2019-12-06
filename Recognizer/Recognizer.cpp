@@ -63,4 +63,5 @@ void run(){
     for (int i = 0; i < inputVector.size(); i++) {
         newState = recognizer.updateState(newState,inputVector.at(i));
     }
+     cout<<"\n#---------------------------------------------------------------------------------------------------#\n";
 }
