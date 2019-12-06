@@ -1,5 +1,5 @@
 #include "Recognizer.h"
 int main(){
-    run();
+    while (1)run();
     return 0;
 }
