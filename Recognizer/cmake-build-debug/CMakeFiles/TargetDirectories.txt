@@ -1,0 +1,3 @@
+/home/mohamedessam/CLionProjects/Recognizer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mohamedessam/CLionProjects/Recognizer/cmake-build-debug/CMakeFiles/Recognizer.dir
+/home/mohamedessam/CLionProjects/Recognizer/cmake-build-debug/CMakeFiles/edit_cache.dir

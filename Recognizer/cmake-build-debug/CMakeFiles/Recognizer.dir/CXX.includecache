@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mohamedessam/CLionProjects/Recognizer/Recognizer.h
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+vector
+-
+
+/home/mohamedessam/CLionProjects/Recognizer/main.cpp
+Recognizer.h
+/home/mohamedessam/CLionProjects/Recognizer/Recognizer.h
+
