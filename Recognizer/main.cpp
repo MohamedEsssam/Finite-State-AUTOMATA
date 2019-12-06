@@ -1,6 +1,5 @@
 #include "Recognizer.h"
 int main(){
-    Recognizer recognizer;
-    recognizer.run();
+    run();
     return 0;
 }

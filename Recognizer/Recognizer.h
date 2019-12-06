@@ -10,12 +10,12 @@
 #include <vector>
 
 using namespace std;
+vector <char> readInput(int);
 class Recognizer {
 public:
-    vector <char> readInput(int);
     int move(int, char );
     int updateState(int, char);
-    void run();
 };
+void run();
 #endif //RECOGNIZER_RECOGNIZER_H
 

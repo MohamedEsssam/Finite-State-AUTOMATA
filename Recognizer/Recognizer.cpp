@@ -13,7 +13,7 @@ void printVector(vector<char>input)
     }
 }
 
-vector<char> Recognizer::readInput(int numberOfChar) {
+vector<char> readInput(int numberOfChar) {
     vector <char > inputVector;
     char character;
     while (numberOfChar > 0){
@@ -54,12 +54,13 @@ int Recognizer::updateState(int oldState, char character) {
     return newState;
 }
 
-void Recognizer::run(){
+void run(){
+    Recognizer recognizer;
     int noOfChar, newState = initState;
     cout<<"Enter Size of Input : ";
     cin>>noOfChar;
     vector<char> inputVector = readInput(noOfChar);
     for (int i = 0; i < inputVector.size(); i++) {
-        newState = updateState(newState,inputVector.at(i));
+        newState = recognizer.updateState(newState,inputVector.at(i));
     }
 }
